@@ -8,7 +8,9 @@ function onClickHandler(info, tab) {
     window.open(info.linkUrl + 'media/?size=l');
   }
   if (/twitter\.com/i.test(info.linkUrl)) {
-    window.open(info.srcUrl + 'name=large');
+    url = info.srcUrl;
+    largeUrl = url.replace(/name=.*/, "")
+    window.open(largeUrl + 'name=orig');
   }
 };
 
