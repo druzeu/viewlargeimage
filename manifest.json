@@ -1,7 +1,7 @@
 {
   "name": "View large image...",
   "description": "View large version of images from select websites.",
-  "update_url": "https://github.com/druzeu/viewlargeimage",
+  "update_url": "https://github.com/druzeu/viewlargeimage/updates.xml",
   "version": "1.0",
   "icons": { "16": "vLi16.png",
     "48": "vLi48.png",
