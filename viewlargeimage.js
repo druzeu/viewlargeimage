@@ -7,10 +7,10 @@ function onClickHandler(info, tab) {
   if (/instagram\.com/i.test(info.linkUrl)) {
     window.open(info.linkUrl + 'media/?size=l');
   }
-  if (/twitter\.com/i.test(info.linkUrl)) {
+  if (/twimg\.com/i.test(info.srcUrl)) {
     url = info.srcUrl;
-    largeUrl = url.replace(/name=.*/, "")
-    window.open(largeUrl + 'name=orig');
+    largeUrl = url.replace(/name=.*$/, "")
+    window.open(largeUrl + "name=orig");
   }
 };
 
