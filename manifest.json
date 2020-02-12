@@ -1,14 +1,14 @@
 {
-  'name': "View large image...",
-  'description': "View large version of images from select websites.",
-  'version': "1.0",
-  'icons': { "16": "vLi16.png",
-    '48': "vLi48.png",
-    '128': "vLi128.png" },
-    'permissions': ["contextMenus"],
-    'background': {
-      'persistent': false,
-      'scripts': ["viewlargeimage.js"]
+  "name": "View large image...",
+  "description": "View large version of images from select websites.",
+  "version": "1.0",
+  "icons": { "16": "vLi16.png",
+    "48": "vLi48.png",
+    "128": "vLi128.png" },
+    "permissions": ["contextMenus"],
+    "background": {
+      "persistent": false,
+      "scripts": ["viewlargeimage.js"]
     },
-    'manifest_version': 2
+    "manifest_version": 2
   }
