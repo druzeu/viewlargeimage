@@ -7,6 +7,9 @@ function onClickHandler(info, tab) {
   if (/instagram\.com/i.test(info.linkUrl)) {
     window.open(info.linkUrl + 'media/?size=l');
   }
+  if (/twitter\.com/i.test(info.linkUrl)) {
+    window.open(info.srcUrl + 'name=large');
+  }
 };
 
 chrome.contextMenus.onClicked.addListener(onClickHandler);
