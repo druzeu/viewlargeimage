@@ -1,9 +1,6 @@
 // Copyright (c) 2020
-
+//
 function onClickHandler(info, tab) {
-  console.log("item " + info.menuItemId + " was clicked");
-  console.log("info: " + JSON.stringify(info));
-  console.log("tab: " + JSON.stringify(tab));
   if (/instagram\.com/i.test(info.linkUrl)) {
     window.open(info.linkUrl + 'media/?size=l');
   }
